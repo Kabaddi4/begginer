@@ -1,6 +1,9 @@
 class Product:
-    def sale(self):
-        print("商品が売れた")
+    def __init__(self, smartphone):
+            self.smartphone = smartphone
+    
+    def buy(self):
+        print(self.smartphone + "を購入")
 
-sale1 = Product()
-sale1.sale()
+action = Product("Xperia")
+action.buy()
