@@ -1,6 +1,7 @@
-def plus(num1, num2):
-    return num1 * num2
+a, b, x = map(int, input().split())
 
-a, b = map(int, input().split())
-
-ans = plus(a, b)
+ab = a + b
+if a > x or x > ab:
+    print("NO")
+else:
+    print("YES")
