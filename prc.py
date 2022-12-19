@@ -1,7 +1,7 @@
 def equal(num_a, num_d, num_n):
     return (num_a + num_d) * num_n / 2
 
-def arr_equal(num_a, num_d, num_n):
+def arr_equal(num_a, num_d, num_n):     #等差数列の和(numpy range)
     return (num_a + num_d) * num_n / 2
 
 arr = [1, 5, 9]     
